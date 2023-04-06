@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Each era a new style</title>
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="media/blurry-logo-preta.png" alt="blurry-logo" class="nav__logo"></a>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">História</a></li>
+            <li><a href="#">Discografia</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="container">
+            <section>
+                <div class="container__text">
+                    <h1>Não é só uma banda, <br> É um mundo de <span class="title--color">histórias!</span></h1>
+                    <p>A cada era que passa, a banda assume uma nova identidade, variando seu estilo 
+                    tanto na logo oficial, paleta de cores, tipografias, cartazes, roupas e mídias oficiais da banda, 
+                    quanto no estilo musical presente em cada álbum. A atmosfera criada para cada álbum 
+                    conta com uma narrativa única, porém curiosamente acaba se conectando de forma linear, 
+                    basta observar.</p>
+                    <button class="btn">Descobrir mais</button>
+                </div>
+            </section>
+            <section>
+                <div class="container__circle"></div>
+                <img src="media/blurry-era-2-cortada.png" alt="blurry-era" class="main--img">
+            </section>
+        </article>
+        <article>
+            <div class="container__thumbnails">
+                <img src="media/vessel-simbolo.png" alt="vessel-simbolo" onclick="imgSlider('media/vessel-era-2.png', '#6BBFD9', 'media/vessel-logo.png')">
+                <img src="media/blurry-simbolo.png" alt="blurry-simbolo" onclick="imgSlider('media/blurry-era-2-cortada.png', '#930508', 'media/blurry-logo-preta.png')">
+                <img src="media/trench-simbolo.png" alt="trench-simbolo" onclick="imgSlider('media/trench-era.png', '#A67D03', 'media/trench-logo.png')">
+                <img src="media/sai-simbolo-2.png" alt="sai-simbolo" onclick="imgSlider('media/sai-era-2-cortada.png', '#F291B5', 'media/sai-logo.png')">
+            </div>
+        </article>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
