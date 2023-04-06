@@ -9,6 +9,22 @@
     list-style-position: inside;
     box-sizing: border-box;
     text-decoration: none;
+    scrollbar-color: #fff;
+    scrollbar-width: 10px;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-right: 1px solid #fff;
+    border-radius: 50px;
 }
 
 body {
